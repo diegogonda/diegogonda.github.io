@@ -7,6 +7,7 @@
   box-shadow: none;
   position: relative;
 }
+
 .progress:after {
   content: "";
   width: 100%;
@@ -17,6 +18,7 @@
   top: 0;
   left: 0;
 }
+
 .progress > span {
   width: 50%;
   height: 100%;
@@ -25,9 +27,11 @@
   top: 0;
   z-index: 1;
 }
+
 .progress .progress-left {
   left: 0;
 }
+
 .progress .progress-bar {
   width: 100%;
   height: 100%;
@@ -38,15 +42,39 @@
   top: 0;
   border-color: #ffb43e;
 }
+
 .progress .progress-bar.rojo {
   border-color: #c60c30;
 }
-.progress .progress-bar.verde {
-  border-color: #38761d;
+
+.progress .progress-bar.php {
+  border-color: #4F5B93;
 }
-.progress .progress-bar.morado {
-  border-color: #741b47;
+
+.progress .progress-bar.js {
+  border-color: #f9e14d;
 }
+
+.progress .progress-bar.java {
+  border-color: #0075bd;
+}
+
+.progress .progress-bar.cpp {
+  border-color: #004482;
+}
+
+.progress .progress-bar.html {
+  border-color: #e44d26;
+}
+
+.progress .progress-bar.css {
+  border-color: #32a4d6;
+}
+
+.progress .progress-bar.sass {
+  border-color: #c69;
+}
+
 .progress .progress-left .progress-bar {
   left: 100%;
   border-top-right-radius: 75px;
@@ -55,9 +83,11 @@
   -webkit-transform-origin: center left;
   transform-origin: center left;
 }
+
 .progress .progress-right {
   right: 0;
 }
+
 .progress .progress-right .progress-bar {
   left: -100%;
   border-top-left-radius: 75px;
@@ -66,6 +96,7 @@
   -webkit-transform-origin: center right;
   transform-origin: center right;
 }
+
 .progress .progress-value {
   display: flex;
   border-radius: 50%;
@@ -77,9 +108,11 @@
   height: 100%;
   font-weight: 300;
 }
+
 .progress .progress-value div {
   margin: 10px 25px;
 }
+
 .progress .progress-value span {
   font-size: 12px;
   text-transform: uppercase;
@@ -91,6 +124,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="1"] .progress-right .progress-bar {
   animation: loading-1 1.5s linear forwards;
 }
+
 .progress[data-percentage="1"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -98,6 +132,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="2"] .progress-right .progress-bar {
   animation: loading-2 1.5s linear forwards;
 }
+
 .progress[data-percentage="2"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -105,6 +140,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="3"] .progress-right .progress-bar {
   animation: loading-3 1.5s linear forwards;
 }
+
 .progress[data-percentage="3"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -112,6 +148,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="4"] .progress-right .progress-bar {
   animation: loading-4 1.5s linear forwards;
 }
+
 .progress[data-percentage="4"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -119,6 +156,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="5"] .progress-right .progress-bar {
   animation: loading-5 1.5s linear forwards;
 }
+
 .progress[data-percentage="5"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -126,6 +164,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="6"] .progress-right .progress-bar {
   animation: loading-6 1.5s linear forwards;
 }
+
 .progress[data-percentage="6"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -133,6 +172,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="7"] .progress-right .progress-bar {
   animation: loading-7 1.5s linear forwards;
 }
+
 .progress[data-percentage="7"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -140,6 +180,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="8"] .progress-right .progress-bar {
   animation: loading-8 1.5s linear forwards;
 }
+
 .progress[data-percentage="8"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -147,6 +188,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="9"] .progress-right .progress-bar {
   animation: loading-9 1.5s linear forwards;
 }
+
 .progress[data-percentage="9"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -154,6 +196,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="10"] .progress-right .progress-bar {
   animation: loading-10 1.5s linear forwards;
 }
+
 .progress[data-percentage="10"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -161,6 +204,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="11"] .progress-right .progress-bar {
   animation: loading-11 1.5s linear forwards;
 }
+
 .progress[data-percentage="11"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -168,6 +212,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="12"] .progress-right .progress-bar {
   animation: loading-12 1.5s linear forwards;
 }
+
 .progress[data-percentage="12"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -175,6 +220,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="13"] .progress-right .progress-bar {
   animation: loading-13 1.5s linear forwards;
 }
+
 .progress[data-percentage="13"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -182,6 +228,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="14"] .progress-right .progress-bar {
   animation: loading-14 1.5s linear forwards;
 }
+
 .progress[data-percentage="14"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -189,6 +236,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="15"] .progress-right .progress-bar {
   animation: loading-15 1.5s linear forwards;
 }
+
 .progress[data-percentage="15"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -196,6 +244,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="16"] .progress-right .progress-bar {
   animation: loading-16 1.5s linear forwards;
 }
+
 .progress[data-percentage="16"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -203,6 +252,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="17"] .progress-right .progress-bar {
   animation: loading-17 1.5s linear forwards;
 }
+
 .progress[data-percentage="17"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -210,6 +260,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="18"] .progress-right .progress-bar {
   animation: loading-18 1.5s linear forwards;
 }
+
 .progress[data-percentage="18"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -217,6 +268,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="19"] .progress-right .progress-bar {
   animation: loading-19 1.5s linear forwards;
 }
+
 .progress[data-percentage="19"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -224,6 +276,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="20"] .progress-right .progress-bar {
   animation: loading-20 1.5s linear forwards;
 }
+
 .progress[data-percentage="20"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -231,6 +284,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="21"] .progress-right .progress-bar {
   animation: loading-21 1.5s linear forwards;
 }
+
 .progress[data-percentage="21"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -238,6 +292,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="22"] .progress-right .progress-bar {
   animation: loading-22 1.5s linear forwards;
 }
+
 .progress[data-percentage="22"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -245,6 +300,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="23"] .progress-right .progress-bar {
   animation: loading-23 1.5s linear forwards;
 }
+
 .progress[data-percentage="23"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -252,6 +308,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="24"] .progress-right .progress-bar {
   animation: loading-24 1.5s linear forwards;
 }
+
 .progress[data-percentage="24"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -259,6 +316,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="25"] .progress-right .progress-bar {
   animation: loading-25 1.5s linear forwards;
 }
+
 .progress[data-percentage="25"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -266,6 +324,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="26"] .progress-right .progress-bar {
   animation: loading-26 1.5s linear forwards;
 }
+
 .progress[data-percentage="26"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -273,6 +332,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="27"] .progress-right .progress-bar {
   animation: loading-27 1.5s linear forwards;
 }
+
 .progress[data-percentage="27"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -280,6 +340,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="28"] .progress-right .progress-bar {
   animation: loading-28 1.5s linear forwards;
 }
+
 .progress[data-percentage="28"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -287,6 +348,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="29"] .progress-right .progress-bar {
   animation: loading-29 1.5s linear forwards;
 }
+
 .progress[data-percentage="29"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -294,6 +356,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="30"] .progress-right .progress-bar {
   animation: loading-30 1.5s linear forwards;
 }
+
 .progress[data-percentage="30"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -301,6 +364,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="31"] .progress-right .progress-bar {
   animation: loading-31 1.5s linear forwards;
 }
+
 .progress[data-percentage="31"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -308,6 +372,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="32"] .progress-right .progress-bar {
   animation: loading-32 1.5s linear forwards;
 }
+
 .progress[data-percentage="32"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -315,6 +380,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="33"] .progress-right .progress-bar {
   animation: loading-33 1.5s linear forwards;
 }
+
 .progress[data-percentage="33"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -322,6 +388,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="34"] .progress-right .progress-bar {
   animation: loading-34 1.5s linear forwards;
 }
+
 .progress[data-percentage="34"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -329,6 +396,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="35"] .progress-right .progress-bar {
   animation: loading-35 1.5s linear forwards;
 }
+
 .progress[data-percentage="35"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -336,6 +404,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="36"] .progress-right .progress-bar {
   animation: loading-36 1.5s linear forwards;
 }
+
 .progress[data-percentage="36"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -343,6 +412,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="37"] .progress-right .progress-bar {
   animation: loading-37 1.5s linear forwards;
 }
+
 .progress[data-percentage="37"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -350,6 +420,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="38"] .progress-right .progress-bar {
   animation: loading-38 1.5s linear forwards;
 }
+
 .progress[data-percentage="38"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -357,6 +428,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="39"] .progress-right .progress-bar {
   animation: loading-39 1.5s linear forwards;
 }
+
 .progress[data-percentage="39"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -364,6 +436,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="40"] .progress-right .progress-bar {
   animation: loading-40 1.5s linear forwards;
 }
+
 .progress[data-percentage="40"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -371,6 +444,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="41"] .progress-right .progress-bar {
   animation: loading-41 1.5s linear forwards;
 }
+
 .progress[data-percentage="41"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -378,6 +452,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="42"] .progress-right .progress-bar {
   animation: loading-42 1.5s linear forwards;
 }
+
 .progress[data-percentage="42"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -385,6 +460,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="43"] .progress-right .progress-bar {
   animation: loading-43 1.5s linear forwards;
 }
+
 .progress[data-percentage="43"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -392,6 +468,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="44"] .progress-right .progress-bar {
   animation: loading-44 1.5s linear forwards;
 }
+
 .progress[data-percentage="44"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -399,6 +476,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="45"] .progress-right .progress-bar {
   animation: loading-45 1.5s linear forwards;
 }
+
 .progress[data-percentage="45"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -406,6 +484,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="46"] .progress-right .progress-bar {
   animation: loading-46 1.5s linear forwards;
 }
+
 .progress[data-percentage="46"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -413,6 +492,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="47"] .progress-right .progress-bar {
   animation: loading-47 1.5s linear forwards;
 }
+
 .progress[data-percentage="47"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -420,6 +500,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="48"] .progress-right .progress-bar {
   animation: loading-48 1.5s linear forwards;
 }
+
 .progress[data-percentage="48"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -427,6 +508,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="49"] .progress-right .progress-bar {
   animation: loading-49 1.5s linear forwards;
 }
+
 .progress[data-percentage="49"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -434,6 +516,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="50"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="50"] .progress-left .progress-bar {
   animation: 0;
 }
@@ -441,6 +524,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="51"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="51"] .progress-left .progress-bar {
   animation: loading-1 1.5s linear forwards 1.5s;
 }
@@ -448,6 +532,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="52"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="52"] .progress-left .progress-bar {
   animation: loading-2 1.5s linear forwards 1.5s;
 }
@@ -455,6 +540,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="53"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="53"] .progress-left .progress-bar {
   animation: loading-3 1.5s linear forwards 1.5s;
 }
@@ -462,6 +548,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="54"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="54"] .progress-left .progress-bar {
   animation: loading-4 1.5s linear forwards 1.5s;
 }
@@ -469,6 +556,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="55"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="55"] .progress-left .progress-bar {
   animation: loading-5 1.5s linear forwards 1.5s;
 }
@@ -476,6 +564,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="56"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="56"] .progress-left .progress-bar {
   animation: loading-6 1.5s linear forwards 1.5s;
 }
@@ -483,6 +572,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="57"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="57"] .progress-left .progress-bar {
   animation: loading-7 1.5s linear forwards 1.5s;
 }
@@ -490,6 +580,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="58"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="58"] .progress-left .progress-bar {
   animation: loading-8 1.5s linear forwards 1.5s;
 }
@@ -497,6 +588,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="59"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="59"] .progress-left .progress-bar {
   animation: loading-9 1.5s linear forwards 1.5s;
 }
@@ -504,6 +596,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="60"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="60"] .progress-left .progress-bar {
   animation: loading-10 1.5s linear forwards 1.5s;
 }
@@ -511,6 +604,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="61"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="61"] .progress-left .progress-bar {
   animation: loading-11 1.5s linear forwards 1.5s;
 }
@@ -518,6 +612,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="62"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="62"] .progress-left .progress-bar {
   animation: loading-12 1.5s linear forwards 1.5s;
 }
@@ -525,6 +620,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="63"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="63"] .progress-left .progress-bar {
   animation: loading-13 1.5s linear forwards 1.5s;
 }
@@ -532,6 +628,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="64"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="64"] .progress-left .progress-bar {
   animation: loading-14 1.5s linear forwards 1.5s;
 }
@@ -539,6 +636,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="65"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="65"] .progress-left .progress-bar {
   animation: loading-15 1.5s linear forwards 1.5s;
 }
@@ -546,6 +644,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="66"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="66"] .progress-left .progress-bar {
   animation: loading-16 1.5s linear forwards 1.5s;
 }
@@ -553,6 +652,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="67"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="67"] .progress-left .progress-bar {
   animation: loading-17 1.5s linear forwards 1.5s;
 }
@@ -560,6 +660,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="68"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="68"] .progress-left .progress-bar {
   animation: loading-18 1.5s linear forwards 1.5s;
 }
@@ -567,6 +668,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="69"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="69"] .progress-left .progress-bar {
   animation: loading-19 1.5s linear forwards 1.5s;
 }
@@ -574,6 +676,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="70"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="70"] .progress-left .progress-bar {
   animation: loading-20 1.5s linear forwards 1.5s;
 }
@@ -581,6 +684,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="71"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="71"] .progress-left .progress-bar {
   animation: loading-21 1.5s linear forwards 1.5s;
 }
@@ -588,6 +692,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="72"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="72"] .progress-left .progress-bar {
   animation: loading-22 1.5s linear forwards 1.5s;
 }
@@ -595,6 +700,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="73"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="73"] .progress-left .progress-bar {
   animation: loading-23 1.5s linear forwards 1.5s;
 }
@@ -602,6 +708,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="74"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="74"] .progress-left .progress-bar {
   animation: loading-24 1.5s linear forwards 1.5s;
 }
@@ -609,6 +716,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="75"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="75"] .progress-left .progress-bar {
   animation: loading-25 1.5s linear forwards 1.5s;
 }
@@ -616,6 +724,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="76"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="76"] .progress-left .progress-bar {
   animation: loading-26 1.5s linear forwards 1.5s;
 }
@@ -623,6 +732,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="77"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="77"] .progress-left .progress-bar {
   animation: loading-27 1.5s linear forwards 1.5s;
 }
@@ -630,6 +740,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="78"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="78"] .progress-left .progress-bar {
   animation: loading-28 1.5s linear forwards 1.5s;
 }
@@ -637,6 +748,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="79"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="79"] .progress-left .progress-bar {
   animation: loading-29 1.5s linear forwards 1.5s;
 }
@@ -644,6 +756,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="80"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="80"] .progress-left .progress-bar {
   animation: loading-30 1.5s linear forwards 1.5s;
 }
@@ -651,6 +764,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="81"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="81"] .progress-left .progress-bar {
   animation: loading-31 1.5s linear forwards 1.5s;
 }
@@ -658,6 +772,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="82"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="82"] .progress-left .progress-bar {
   animation: loading-32 1.5s linear forwards 1.5s;
 }
@@ -665,6 +780,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="83"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="83"] .progress-left .progress-bar {
   animation: loading-33 1.5s linear forwards 1.5s;
 }
@@ -672,6 +788,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="84"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="84"] .progress-left .progress-bar {
   animation: loading-34 1.5s linear forwards 1.5s;
 }
@@ -679,6 +796,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="85"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="85"] .progress-left .progress-bar {
   animation: loading-35 1.5s linear forwards 1.5s;
 }
@@ -686,6 +804,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="86"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="86"] .progress-left .progress-bar {
   animation: loading-36 1.5s linear forwards 1.5s;
 }
@@ -693,6 +812,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="87"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="87"] .progress-left .progress-bar {
   animation: loading-37 1.5s linear forwards 1.5s;
 }
@@ -700,6 +820,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="88"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="88"] .progress-left .progress-bar {
   animation: loading-38 1.5s linear forwards 1.5s;
 }
@@ -707,6 +828,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="89"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="89"] .progress-left .progress-bar {
   animation: loading-39 1.5s linear forwards 1.5s;
 }
@@ -714,6 +836,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="90"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="90"] .progress-left .progress-bar {
   animation: loading-40 1.5s linear forwards 1.5s;
 }
@@ -721,6 +844,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="91"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="91"] .progress-left .progress-bar {
   animation: loading-41 1.5s linear forwards 1.5s;
 }
@@ -728,6 +852,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="92"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="92"] .progress-left .progress-bar {
   animation: loading-42 1.5s linear forwards 1.5s;
 }
@@ -735,6 +860,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="93"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="93"] .progress-left .progress-bar {
   animation: loading-43 1.5s linear forwards 1.5s;
 }
@@ -742,6 +868,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="94"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="94"] .progress-left .progress-bar {
   animation: loading-44 1.5s linear forwards 1.5s;
 }
@@ -749,6 +876,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="95"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="95"] .progress-left .progress-bar {
   animation: loading-45 1.5s linear forwards 1.5s;
 }
@@ -756,6 +884,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="96"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="96"] .progress-left .progress-bar {
   animation: loading-46 1.5s linear forwards 1.5s;
 }
@@ -763,6 +892,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="97"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="97"] .progress-left .progress-bar {
   animation: loading-47 1.5s linear forwards 1.5s;
 }
@@ -770,6 +900,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="98"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="98"] .progress-left .progress-bar {
   animation: loading-48 1.5s linear forwards 1.5s;
 }
@@ -777,6 +908,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="99"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="99"] .progress-left .progress-bar {
   animation: loading-49 1.5s linear forwards 1.5s;
 }
@@ -784,6 +916,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
 .progress[data-percentage="100"] .progress-right .progress-bar {
   animation: loading-50 1.5s linear forwards;
 }
+
 .progress[data-percentage="100"] .progress-left .progress-bar {
   animation: loading-50 1.5s linear forwards 1.5s;
 }
@@ -798,6 +931,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(3.6deg);
   }
 }
+
 @keyframes loading-2 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -808,6 +942,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(7.2deg);
   }
 }
+
 @keyframes loading-3 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -818,6 +953,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(10.8deg);
   }
 }
+
 @keyframes loading-4 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -828,6 +964,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(14.4deg);
   }
 }
+
 @keyframes loading-5 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -838,6 +975,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(18deg);
   }
 }
+
 @keyframes loading-6 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -848,6 +986,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(21.6deg);
   }
 }
+
 @keyframes loading-7 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -858,6 +997,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(25.2deg);
   }
 }
+
 @keyframes loading-8 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -868,6 +1008,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(28.8deg);
   }
 }
+
 @keyframes loading-9 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -878,6 +1019,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(32.4deg);
   }
 }
+
 @keyframes loading-10 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -888,6 +1030,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(36deg);
   }
 }
+
 @keyframes loading-11 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -898,6 +1041,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(39.6deg);
   }
 }
+
 @keyframes loading-12 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -908,6 +1052,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(43.2deg);
   }
 }
+
 @keyframes loading-13 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -918,6 +1063,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(46.8deg);
   }
 }
+
 @keyframes loading-14 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -928,6 +1074,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(50.4deg);
   }
 }
+
 @keyframes loading-15 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -938,6 +1085,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(54deg);
   }
 }
+
 @keyframes loading-16 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -948,6 +1096,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(57.6deg);
   }
 }
+
 @keyframes loading-17 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -958,6 +1107,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(61.2deg);
   }
 }
+
 @keyframes loading-18 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -968,6 +1118,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(64.8deg);
   }
 }
+
 @keyframes loading-19 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -978,6 +1129,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(68.4deg);
   }
 }
+
 @keyframes loading-20 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -988,6 +1140,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(72deg);
   }
 }
+
 @keyframes loading-21 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -998,6 +1151,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(75.6deg);
   }
 }
+
 @keyframes loading-22 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1008,6 +1162,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(79.2deg);
   }
 }
+
 @keyframes loading-23 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1018,6 +1173,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(82.8deg);
   }
 }
+
 @keyframes loading-24 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1028,6 +1184,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(86.4deg);
   }
 }
+
 @keyframes loading-25 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1038,6 +1195,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(90deg);
   }
 }
+
 @keyframes loading-26 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1048,6 +1206,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(93.6deg);
   }
 }
+
 @keyframes loading-27 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1058,6 +1217,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(97.2deg);
   }
 }
+
 @keyframes loading-28 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1068,6 +1228,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(100.8deg);
   }
 }
+
 @keyframes loading-29 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1078,6 +1239,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(104.4deg);
   }
 }
+
 @keyframes loading-30 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1088,6 +1250,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(108deg);
   }
 }
+
 @keyframes loading-31 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1098,6 +1261,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(111.6deg);
   }
 }
+
 @keyframes loading-32 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1108,6 +1272,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(115.2deg);
   }
 }
+
 @keyframes loading-33 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1118,6 +1283,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(118.8deg);
   }
 }
+
 @keyframes loading-34 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1128,6 +1294,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(122.4deg);
   }
 }
+
 @keyframes loading-35 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1138,6 +1305,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(126deg);
   }
 }
+
 @keyframes loading-36 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1148,6 +1316,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(129.6deg);
   }
 }
+
 @keyframes loading-37 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1158,6 +1327,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(133.2deg);
   }
 }
+
 @keyframes loading-38 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1168,6 +1338,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(136.8deg);
   }
 }
+
 @keyframes loading-39 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1178,6 +1349,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(140.4deg);
   }
 }
+
 @keyframes loading-40 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1188,6 +1360,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(144deg);
   }
 }
+
 @keyframes loading-41 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1198,6 +1371,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(147.6deg);
   }
 }
+
 @keyframes loading-42 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1208,6 +1382,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(151.2deg);
   }
 }
+
 @keyframes loading-43 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1218,6 +1393,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(154.8deg);
   }
 }
+
 @keyframes loading-44 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1228,6 +1404,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(158.4deg);
   }
 }
+
 @keyframes loading-45 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1238,6 +1415,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(162deg);
   }
 }
+
 @keyframes loading-46 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1248,6 +1426,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(165.6deg);
   }
 }
+
 @keyframes loading-47 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1258,6 +1437,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(169.2deg);
   }
 }
+
 @keyframes loading-48 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1268,6 +1448,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(172.8deg);
   }
 }
+
 @keyframes loading-49 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1278,6 +1459,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(176.4deg);
   }
 }
+
 @keyframes loading-50 {
   0% {
     -webkit-transform: rotate(0deg);
@@ -1288,6 +1470,7 @@ Due to the split circle of progress-left and progress right, we must use the ani
     transform: rotate(180deg);
   }
 }
+
 .progress {
   margin-bottom: 1em;
 }
