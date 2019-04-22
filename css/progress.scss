@@ -5,6 +5,14 @@ $animationTime: 1.5s;
 $border-color-default: #eee;
 $border-color-fill: #ffb43e;
 $border-color-fill-rojo: #c60c30;
+$border-color-fill-php: #4F5B93;
+$border-color-fill-js: #f9e14d;
+$border-color-fill-java: #0075bd;
+$border-color-fill-cpp: #004482;
+$border-color-fill-html: #e44d26;
+$border-color-fill-css: #32a4d6;
+$border-color-fill-sass: #c69;
+
 $size: 150px;
 
 //Create how many steps
@@ -52,6 +60,27 @@ $howManySteps: 100; //this needs to be even.
     &.rojo {
       border-color: $border-color-fill-rojo;
     }
+	&.php {
+	  border-color: $border-color-fill-php;
+	}
+	&.js {
+	  border-color: $border-color-fill-js;
+	}
+	&.java {
+	  border-color: $border-color-fill-java;
+	}
+	&.cpp {
+		border-color: $border-color-fill-cpp;
+	}
+	&.html {
+		border-color: $border-color-fill-html;
+	}
+	&.css {
+		border-color: $border-color-fill-css;
+	}
+	&.sass {
+		border-color: $border-color-fill-sass;
+	}
   }
   .progress-left .progress-bar {
     left: 100%;
